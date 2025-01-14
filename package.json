@@ -1,0 +1,22 @@
+{
+  "name": "openai-s2s-example",
+  "version": "0.0.1",
+  "description": "example jambonz websocket application using OpenAI's Realtime API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib --fix"
+  },
+  "author": "Dave Horton",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/node-client-ws": "^0.1.55",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "pino": "^9.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.12.0",
+    "eslint-plugin-promise": "^7.1.0"
+  }
+}
