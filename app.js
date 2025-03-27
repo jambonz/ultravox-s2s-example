@@ -24,3 +24,4 @@ require('./lib/routes')({logger, makeService});
 server.listen(port, () => {
   logger.info(`jambonz websocket server listening at http://localhost:${port}`);
 });
+
