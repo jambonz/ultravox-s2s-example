@@ -1,7 +1,7 @@
 {
-  "name": "ultravox-s2s-example",
+  "name": "openai-s2s-example",
   "version": "0.0.1",
-  "description": "example jambonz websocket application using Ultravox's Realtime API",
+  "description": "example jambonz websocket application using OpenAI's Realtime API",
   "main": "app.js",
   "scripts": {
     "start": "node app",
@@ -10,6 +10,7 @@
   "author": "Dave Horton",
   "license": "MIT",
   "dependencies": {
+    "@jambonz/node-client": "^0.3.92",
     "@jambonz/node-client-ws": "^0.1.78",
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
