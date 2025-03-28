@@ -42,3 +42,5 @@ ecosystem.config.js
 test/credentials/*.json
 run-tests.sh
 run-coverage.sh
+.env
+package-lock.json
