@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "@jambonz/node-client": "^0.3.92",
-    "@jambonz/node-client-ws": "^0.1.73",
+    "@jambonz/node-client-ws": "^0.1.78",
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
