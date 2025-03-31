@@ -22,6 +22,18 @@ app.use('/api', (req, res, next) => {
 
 require('./lib/routes')({logger, makeService});
 
+app.post('/final', (req, res) => {
+  logger.info({body: req.body}, 'POST /final');
+  
+  res.status(200).send();
+});
+
+app.post('/event', (req, res) => {
+  logger.info({body: req.body}, 'POST /event');
+  
+  res.status(200).send();
+});
+
 server.listen(port, () => {
   logger.info(`jambonz websocket server listening at http://localhost:${port}`);
 });
