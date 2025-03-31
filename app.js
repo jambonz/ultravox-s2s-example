@@ -24,14 +24,12 @@ require('./lib/routes')({logger, makeService});
 
 app.post('/final', (req, res) => {
   logger.info({body: req.body}, 'POST /final');
-  console.log(req.body);
   
   res.status(200).send();
 });
 
 app.post('/event', (req, res) => {
   logger.info({body: req.body}, 'POST /event');
-  console.log(req.body);
   
   res.status(200).send();
 });
