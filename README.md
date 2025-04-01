@@ -60,10 +60,10 @@ JAMBONZ_BASE_URL=https://api.jambonz.cloud
 
 2. Create a new Jambonz application in your portal under the [*Applications*](https://jambonz.cloud/internal/applications) tab.
 Give it a name, then set both `Calling webhook` and `Call status webhook` values to the same URL, based on which scenario you'd like to run:
-- weather agent using Ultravox clientTools: `ws://your-example-domain.ngrok.io/weather-agent-client-tool`
-- weather agent using Ultravox serverTools: `ws://your-example-domain.ngrok.io/weather-agent-server-tool`
-- call transfer agent using Ultravox clientTools: `ws://your-example-domain.ngrok.io/call-transfer-agent`
-- call transfer agent using Ultravox serverTools: `ws://your-example-domain.ngrok.io/call-transfer-agent-server-tool`
+    - weather agent using Ultravox clientTools: `ws://your-example-domain.ngrok.io/weather-agent-client-tool`
+    - weather agent using Ultravox serverTools: `ws://your-example-domain.ngrok.io/weather-agent-server-tool`
+    - call transfer agent using Ultravox clientTools: `ws://your-example-domain.ngrok.io/call-transfer-agent`
+    - call transfer agent using Ultravox serverTools: `ws://your-example-domain.ngrok.io/call-transfer-agent-server-tool`
 
 
 3. After creating a carrier, you need to provision the phone number that you will be receiving calls on from that carrier. [See docs](https://docs.jambonz.org/guides/using-the-jambonz-portal/basic-concepts/creating-phone-numbers).
