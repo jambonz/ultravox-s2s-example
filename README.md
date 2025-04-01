@@ -2,7 +2,7 @@
 
 This is an example Jambonz application that connects to the Ultravox Realtime API and illustrates how to build a Voice-AI application using Jambonz and Ultravox. 
 
-When building agents with Ultravox, you can extend your agents' capabilities by connecting them to external services and systems via [tools](https://docs.ultravox.ai/essentials/tools)—functions that agents can invoke to perform specific actions or retrieve information. These tools can be implemented as either client or server tools, we're covering both in this sample application. 
+When building agents with Ultravox, you can extend your agents' capabilities by connecting them to external services and systems via [tools](https://docs.ultravox.ai/essentials/tools)—functions that agents can invoke to perform specific actions or retrieve information. These tools can be implemented as either client or server tools; we're covering both in this sample application. 
 Read more about client vs server tools in the [Ultravox docs](https://docs.ultravox.ai/essentials/tools#server-vs-client-tools).
 
 This example application covers four scenarios:
@@ -11,7 +11,8 @@ This example application covers four scenarios:
 - call transfer agent using Ultravox clientTools
 - call transfer agent using Ultravox serverTools. 
 
-The weather agent utilizes a weather REST API to enable Ultravox to answer callers' questions about the weather for specified locations, while the call transfer agent uses jambonz to redirect the inbound call to a destination number of your choice.
+The weather agent utilizes a weather REST API to enable Ultravox to answer callers' questions about the weather for specified locations. 
+The call transfer agent uses Jambonz to redirect the inbound call to a destination number of your choice.
 
 ## Prerequisites
 
@@ -93,4 +94,5 @@ Like many Jambonz verbs, the `llm` verb sends an `actionHook` with a final statu
   - the ['llm'](https://docs.jambonz.org/verbs/verbs/llm) verb
   - the ['dial'](https://docs.jambonz.org/verbs/verbs/dial) verb
   - the ['sip_refer'](https://docs.jambonz.org/verbs/verbs/sip-refer) verb
+  - step-by-step [guides](https://docs.jambonz.org/guides/telephony-integrations) for adding carriers to Jambonz
 
